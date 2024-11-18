@@ -1,0 +1,41 @@
+/* @media screen and (max-width:786px){
+    .responsive-navebar{
+        display: none;
+    }
+}
+@media screen and (max-width:786px){
+    .navbar-mobile-tablet{
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        background-color: red;
+    }
+} */
+ .responsive-navbar{
+    transform: none;
+ }
+ @media screen and (max-width:786px){
+    .responsive-navbar{
+        visibility: visible;
+        opacity: 1;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.3rem;
+        color: black;
+        transition: 1;
+        transform:translateY(-100vh);
+        
+    }
+    .responsive-navbar{
+        transform: none;
+     }
+}

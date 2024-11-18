@@ -1,0 +1,6 @@
+.bg-image-background{
+    background-image: url(./bgimag.jpg);
+    background:cover;
+    background-repeat: repeat;
+    
+}
