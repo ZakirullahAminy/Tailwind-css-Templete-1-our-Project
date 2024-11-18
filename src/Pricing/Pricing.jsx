@@ -16,10 +16,9 @@ function Pricing() {
           </p>
         </div>
         {/* Flexible Plans section Cards */}
-        <div  className="Plans-cards mt-20 flex flex-wrap justify-center gap-5 items-center">
+        <div className="Plans-cards mt-20 flex flex-wrap justify-center gap-5 items-center">
           {/* Card 1 */}
-          <div className="bg-image-background Plans-card border rounded-2xl p-6 lg:w-[23rem] md:w-[45%] sm:w-[95%] xs:w-full flex flex-col justify-between gap-y-6">
-           
+          <div className="bg-image-background Plans-card border rounded-2xl p-6 lg:w-[20rem] md:w-[33%] sm:w-[95%] xs:w-full flex flex-col justify-between gap-y-6">
             <h5 className="font-bold">Basic Plan</h5>
             <span className="flex items-center gap-x-2 mb-10">
               <h1 className="font-bold">$35</h1>
@@ -39,8 +38,7 @@ function Pricing() {
                 Free credit-card
               </li>
               <li className="flex items-center gap-x-2">
-                <FaCheck />
-                1 year premium support
+                <FaCheck />1 year premium support
               </li>
             </ul>
             <button className="text-white py-3 rounded-2xl justify-center bg-violet-500 flex font-bold">
@@ -48,7 +46,7 @@ function Pricing() {
             </button>
           </div>
           {/* Card 2 */}
-          <div className="Plans-card border border-violet-500 rounded-2xl p-6 lg:w-[23rem] md:w-[45%] sm:w-[95%] xs:w-full flex flex-col justify-between gap-y-6">
+          <div className="Plans-card border border-violet-500 rounded-2xl p-6 lg:w-[20rem] md:w-[33%] sm:w-[95%] xs:w-full flex flex-col justify-between gap-y-6">
             <h5 className="font-bold">Pro Plan</h5>
             <span className="flex items-center gap-x-2 mb-10">
               <h1 className="font-bold">$50</h1>
@@ -68,8 +66,7 @@ function Pricing() {
                 Free credit-card
               </li>
               <li className="flex items-center gap-x-2">
-                <FaCheck />
-                2 years premium support
+                <FaCheck />2 years premium support
               </li>
             </ul>
             <button className="text-white py-3 rounded-2xl justify-center bg-violet-500 flex font-bold">
@@ -77,7 +74,7 @@ function Pricing() {
             </button>
           </div>
           {/* Card 3 */}
-          <div className="Plans-card border rounded-2xl p-6 lg:w-[23rem] md:w-[45%] sm:w-[95%] xs:w-full flex flex-col justify-between gap-y-6">
+          <div className="Plans-card border rounded-2xl p-6 lg:w-[20rem] md:w-[33%] sm:w-[95%] xs:w-full flex flex-col justify-between gap-y-6">
             <h5 className="font-bold">Premium Plan</h5>
             <span className="flex items-center gap-x-2 mb-10">
               <h1 className="font-bold">$75</h1>
@@ -97,8 +94,7 @@ function Pricing() {
                 Free credit-card
               </li>
               <li className="flex items-center gap-x-2">
-                <FaCheck />
-                5 years premium support
+                <FaCheck />5 years premium support
               </li>
             </ul>
             <button className="text-white py-3 rounded-2xl justify-center bg-violet-500 flex font-bold">

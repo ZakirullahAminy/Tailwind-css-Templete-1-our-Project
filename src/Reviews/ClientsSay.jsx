@@ -148,7 +148,7 @@ function ClientsSay() {
         {/* Frequently Asked Questions section cards*/}
         <div className="AskedQuestions-cards flex flex-wrap justify-between mt-20 gap-y-5">
           {/* Frequently Asked Questions section card left*/}
-          <div className="AskedQuestions-card-left border p-10 rounded-2xl xl:w-[40rem] lg:w-[28rem] ">
+          <div className="AskedQuestions-card-left border p-10 rounded-2xl xl:w-[47%] md:w-[45%] lg:w-[28rem] ">
             {/* text 1 */}
             <br />
             <h2 className="font-semibold">Which plan is suitable for me?</h2>
@@ -172,7 +172,7 @@ function ClientsSay() {
             </p>
           </div>
           {/* Frequently Asked Questions section card right*/}
-          <div className="AskedQuestions-card-right border p-10 rounded-2xl xl:w-[40rem] lg:w-[28rem] ">
+          <div className="AskedQuestions-card-right border p-10 rounded-2xl xl:w-[47%] md:w-[45%] lg:w-[28rem] ">
             {/* text 1 */}
             <br />
             <h2 className="font-semibold">Which plan is suitable for me?</h2>
@@ -213,7 +213,7 @@ function ClientsSay() {
         {/* RecentArticles section cards */}
         <div className="RecentArticles-main-cards flex flex-wrap justify-between   my-28">
           {/* RecentArticles section left cards */}
-          <div className="left-cards flex flex-col flex-wrap gap-y-5 lg:w-[27rem] xl:w-[38rem] sm:w-full">
+          <div className="left-cards flex flex-col flex-wrap gap-y-5 lg:w-[49%] xl:w-[44%] sm:w-full">
             {/* RecentArticles section left card 1*/}
 
             <div className="for_css relative flex flex-col rounded-lg ">
