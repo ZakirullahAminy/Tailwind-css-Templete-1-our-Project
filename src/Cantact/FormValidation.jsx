@@ -273,7 +273,7 @@ function FormValidation() {
         </section>
       </section>
       <div className="flex justify-center h-20 items-center">
-        <p className="font-semibold text-gray-400">Copyright by Appwind 2024, All rights reserved.</p>
+        <p className="font-semibold text-gray-400">Copyright by Zakirulla Aminy 2024.</p>
       </div>
     </>
   );
