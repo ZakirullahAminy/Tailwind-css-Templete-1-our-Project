@@ -44,7 +44,7 @@ function Hero() {
             {/* Image div */}
             <div className="w-full lg:w-1/2 h-auto mt-10 lg:mt-0 lg:ml-5 flex justify-center">
               <img
-                className=" h-[30rem]  max-w-xs  md:max-w-sm md:mt-5"
+                className=" h-auto  max-w-xs  md:max-w-sm md:mt-5"
                 src={heroImg}
                 alt="Hero"
               />
